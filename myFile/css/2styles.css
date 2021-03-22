@@ -1,0 +1,93 @@
+/* 全体 */
+body {
+  background-color: rgba(0, 0, 0, .5);
+  margin: 0;
+}
+
+.top {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.top h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.top ul {
+  margin: 0;
+  margin-left: auto;
+}
+
+.top li {
+  display: inline-block;
+  margin-right: 12px;
+  width: 100px;
+  height: 40px;
+  vertical-align: center;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 10px;
+  opacity: .5;
+}
+
+.top li:hover {
+  /* opacity: 1; */
+  cursor: pointer;
+  background-color: rgb(108, 167, 235);
+}
+
+.top li a {
+  text-decoration: none;
+  color: #ddd;
+}
+
+
+/* 作品紹介 全体 */
+.container {
+  /* border: 1px solid red; */
+  flex: 1;
+}
+
+section .app {
+  border: 3px solid rgb(99, 89, 91);
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+/* リンク */
+.container a {
+  text-decoration: none;
+  color: rgb(65, 50, 150);
+  display: inline-block;
+  margin: 0;
+  font-size: 20px;
+}
+
+/* aタグ クラス */
+.a {
+  text-align: center;
+}
+
+/* リンク ホーバー */
+.container a:hover {
+  opacity: .5;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* クリック */
+small {
+  display: block;
+  color: rgb(236, 236, 236);
+}
+
+/* アプリの説明 */
+p {
+  font-size: 15px;
+  text-decoration: underline;
+  color: rgb(29, 28, 28);
+  font-weight: normal;
+}

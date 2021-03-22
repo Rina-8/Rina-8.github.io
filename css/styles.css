@@ -27,7 +27,6 @@ body {
 
 .container li {
   display: inline-block;
-  /* border: 1px solid rgba(92, 157, 187, .5); */
   margin-right: 12px;
   width: 100px;
   height: 40px;
@@ -35,7 +34,6 @@ body {
   text-align: center;
   line-height: 40px;
   border-radius: 10px;
-  /* background: rgba(58, 74, 78, 0.6); */
   opacity: .5;
 }
 
@@ -48,12 +46,12 @@ body {
 header h1 {
   font-size: 24px;
   padding-bottom: 8px;
-  /* border-bottom: 1px solid #ddd; */
   margin: 0;
 }
 
 header a {
   text-decoration: none;
+  color: #ddd;
 }
 
 
